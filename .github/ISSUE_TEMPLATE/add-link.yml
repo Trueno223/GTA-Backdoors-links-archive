@@ -1,12 +1,45 @@
-name: Add Link
-description: Template for adding a new link.
-fields:
-  url:
-    description: The URL of the link to add.
-    required: true
-  description:
-    description: A short description of the link.
-    required: true
-  author:
-    description: The name of the person submitting the link.
-    required: true
+name: Add a new link
+description: Submit a new link to add to the archive
+title: "[ADD] "
+labels: ["add-link"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for submitting a new link! Please fill out the form below.
+
+  - type: textarea
+    id: url
+    attributes:
+      label: Link URL
+      description: The full URL of the link you want to add
+      placeholder: "https://example.com"
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: A short description of what this link is about
+      placeholder: "What does this link contain or do?"
+    validations:
+      required: true
+
+  - type: textarea
+    id: author
+    attributes:
+      label: Author/Source
+      description: Who created or maintains this resource?
+      placeholder: "e.g., John Doe, Company Name, etc."
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional-info
+    attributes:
+      label: Additional Information
+      description: Any other relevant details?
+      placeholder: "Optional notes..."
+    validations:
+      required: false
