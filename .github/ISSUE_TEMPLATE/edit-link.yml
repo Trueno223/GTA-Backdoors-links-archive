@@ -51,4 +51,4 @@ body:
       description: Why does this link need to be edited?
       placeholder: "e.g., wrong link, wrong author, etc."
     validations:
-      required: false
+      required: true
