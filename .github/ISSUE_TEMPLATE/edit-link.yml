@@ -1,8 +1,16 @@
----
-title: "Edit Link"
-labels: ["edit link"]
----
+name: Edit Link  
+description: Please fill out the following fields to edit a link.  
 
-**Current Date and Time (UTC - YYYY-MM-DD HH:MM:SS formatted)**: 2026-02-15 20:22:13
-
-**Current User's Login**: Trueno223
+fields:  
+  - name: Link Title  
+    required: true  
+    description: The title of the link.  
+  - name: Link URL  
+    required: true  
+    description: The URL of the link.  
+  - name: Description  
+    required: false  
+    description: A brief description of the link.  
+  - name: Tags  
+    required: false  
+    description: Any tags associated with the link, separated by commas.  
