@@ -1,0 +1,16 @@
+---
+name: Remove Link
+description: Use this template to request the removal of a link.
+title: "[Remove Link]"   
+labels: ["remove link"]  
+---
+
+## Link Description
+*Required*
+Please provide a description of the link you would like to remove:
+
+---
+
+## Reason for Removal
+*Optional*
+Please provide a reason for the removal of this link:
