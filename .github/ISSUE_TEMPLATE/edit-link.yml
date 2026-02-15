@@ -49,6 +49,6 @@ body:
     attributes:
       label: Reason for Edit
       description: Why does this link need to be edited?
-      placeholder: "Optional notes about why this edit is needed..."
+      placeholder: "e.g., wrong link, wrong author, etc."
     validations:
       required: false
