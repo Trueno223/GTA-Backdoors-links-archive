@@ -1,16 +1,27 @@
----
-name: Remove Link
-description: Use this template to request the removal of a link.
-title: "[Remove Link]"   
-labels: ["remove link"]  
----
+name: Remove a link
+description: Request the removal of a link from the archive
+title: "[REMOVE] "
+labels: ["remove-link"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for requesting a link removal! Please fill out the form below.
 
-## Link Description
-*Required*
-Please provide a description of the link you would like to remove:
+  - type: textarea
+    id: link-description
+    attributes:
+      label: Link Description
+      description: Which link would you like to remove? Provide the description of the link
+      placeholder: "e.g., Ultimate SA modding guide"
+    validations:
+      required: true
 
----
-
-## Reason for Removal
-*Optional*
-Please provide a reason for the removal of this link:
+  - type: textarea
+    id: reason-for-removal
+    attributes:
+      label: Reason for Removal
+      description: Why should this link be removed?
+      placeholder: "Optional notes about why this link should be removed..."
+    validations:
+      required: false
