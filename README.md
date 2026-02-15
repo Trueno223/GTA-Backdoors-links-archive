@@ -33,7 +33,7 @@ There is a message length limit on Discord and right now there isn't enough spac
 Another reason to store links here is to make them available outside of Discord, some other people might find them useful too!
 
 ### My link is featured here and I want it removed/edited. What do I do?
-In case your link is featured in the list and you want it removed or edited you may open a issue ticket and request removal or editing.
+In case your link is featured in the list and you want it removed or edited you may open an issue ticket and request removal or editing.
 
 ### One of the links is broken/doesn't lead to the noted site. What do I do?
-In case a link breaks or doesn't lead to the noted site you may open a issue ticket and request editing of the affected link.
+In case a link breaks or doesn't lead to the noted site you may open an issue ticket and request editing of the affected link.
