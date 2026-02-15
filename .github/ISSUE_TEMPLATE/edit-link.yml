@@ -1,16 +1,54 @@
-name: Edit Link  
-description: Please fill out the following fields to edit a link.  
+name: Edit a link
+description: Request edits to an existing link in the archive
+title: "[EDIT] "
+labels: ["edit-link"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for requesting an edit! Please fill out the form below.
 
-fields:  
-  - name: Link Title  
-    required: true  
-    description: The title of the link.  
-  - name: Link URL  
-    required: true  
-    description: The URL of the link.  
-  - name: Description  
-    required: false  
-    description: A brief description of the link.  
-  - name: Tags  
-    required: false  
-    description: Any tags associated with the link, separated by commas.  
+  - type: textarea
+    id: link-description
+    attributes:
+      label: Link Description
+      description: Which link would you like to edit? Provide the current description
+      placeholder: "e.g., Ultimate SA modding guide"
+    validations:
+      required: true
+
+  - type: textarea
+    id: new-url
+    attributes:
+      label: New URL
+      description: The new/corrected URL (leave blank if URL doesn't need changing)
+      placeholder: "https://example.com"
+    validations:
+      required: false
+
+  - type: textarea
+    id: new-description
+    attributes:
+      label: New Description
+      description: The new/corrected description (leave blank if description doesn't need changing)
+      placeholder: "What should the new description be?"
+    validations:
+      required: false
+
+  - type: textarea
+    id: new-author
+    attributes:
+      label: New Author/Source
+      description: The new/corrected author name (leave blank if author doesn't need changing)
+      placeholder: "e.g., John Doe, Company Name, etc."
+    validations:
+      required: false
+
+  - type: textarea
+    id: reason-for-edit
+    attributes:
+      label: Reason for Edit
+      description: Why does this link need to be edited?
+      placeholder: "Optional notes about why this edit is needed..."
+    validations:
+      required: false
