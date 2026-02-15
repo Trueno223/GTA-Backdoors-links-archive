@@ -24,4 +24,4 @@ body:
       description: Why should this link be removed?
       placeholder: "Optional notes about why this link should be removed..."
     validations:
-      required: false
+      required: true
