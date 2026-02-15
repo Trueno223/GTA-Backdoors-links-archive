@@ -1,0 +1,12 @@
+name: Add Link
+description: Template for adding a new link.
+fields:
+  url:
+    description: The URL of the link to add.
+    required: true
+  description:
+    description: A short description of the link.
+    required: true
+  author:
+    description: The name of the person submitting the link.
+    required: true
