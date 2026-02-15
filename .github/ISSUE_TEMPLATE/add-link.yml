@@ -40,6 +40,6 @@ body:
     attributes:
       label: Additional Information
       description: Any other relevant details? How would you like the link to be formatted?
-      placeholder: "Format example: Modloader[Link] for loading mods. Making sure [Link] is on the left side of the text you want to hyperlink"
+      placeholder: "Format example: Modloader[Link] for loading mods. Making sure [Link] is on the left side of the text you want to hyperlink."
     validations:
       required: false
