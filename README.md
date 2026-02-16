@@ -21,6 +21,8 @@ Alternative link for [CustomSAA2](https://www.gtaind.com/2016/07/customsaa2-plug
 
 [CLEO 4.4.4](https://github.com/cleolibrary/CLEO4/releases/tag/v4.4.4) Github page
 
+[Ultimate ASI Loader by ThirteenAG](https://github.com/ThirteenAG/Ultimate-ASI-Loader/releases) (releases page) and [Silent's ASI loader](https://cookieplmonster.github.io/mods/gta-sa/#asiloader)
+
 ## FAQ (literally no one asked yet lmao)
 ### What is this?
 This repository is being used to archive links related to Grand Theft Auto: San Andreas modding, making them easily accessible to those who might come back to them a lot. These links lead to their respective authors' websites and are not owned by the repository owner.
@@ -31,6 +33,9 @@ GTA Backdoors is a small community of people that makes modifications (mainly) f
 ### Why store links here?
 There is a message length limit on Discord and right now there isn't enough space to store all of these links there, the list has gotten really big and it might continue growing. 
 Another reason to store links here is to make them available outside of Discord, some other people might find them useful too!
+
+### I want to submit a link for this archive. What do I do?
+If you want to contribute to this list you may open an issue ticket and request to add a new link to the list.
 
 ### My link is featured here and I want it removed/edited. What do I do?
 In case your link is featured in the list and you want it removed or edited you may open an issue ticket and request removal or editing.
