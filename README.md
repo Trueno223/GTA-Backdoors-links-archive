@@ -23,6 +23,8 @@ Alternative link for [CustomSAA2](https://www.gtaind.com/2016/07/customsaa2-plug
 
 [Ultimate ASI Loader by ThirteenAG](https://github.com/ThirteenAG/Ultimate-ASI-Loader/releases) (releases page) and [Silent's ASI loader](https://cookieplmonster.github.io/mods/gta-sa/#asiloader)
 
+[GTA San Andreas on linux "guide"](https://www.reddit.com/r/linux_gaming/comments/1r4xxdx/need_help_with_gta_samp_modding/), not a real guide but applying the solution makes most mods work.
+
 ## FAQ (literally no one asked yet lmao)
 ### What is this?
 This repository is being used to archive links related to Grand Theft Auto: San Andreas modding, making them easily accessible to those who might come back to them a lot. These links lead to their respective authors' websites and are not owned by the repository owner.
